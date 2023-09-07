@@ -30,7 +30,7 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 ## Installation
-The Random Password Generator can be accessed via the URL:
+The Random Password Generator can be accessed via the URL: https://aleeshanaxakis.github.io/RandomPasswordGenerator/
 
 ## Usage
 Users may use random password generators to generate high security passwords.
