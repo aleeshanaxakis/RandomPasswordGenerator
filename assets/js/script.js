@@ -1,4 +1,4 @@
-// Assignment Code
+// Assignment Code 
 var generateBtn = document.querySelector("#generate");
 
 // Define character arrays
@@ -11,7 +11,6 @@ var upperCasedCharacters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K
 function getPasswordOptions() {
   // Prompt user for password length and store it as an integer in 'length'
 var length = parseInt(prompt('How many characters would you like your password to contain?'), 10);
-}
 
 // Define length requirements
 if (Number.isNaN(length)) {
@@ -105,7 +104,7 @@ function generatePassword() {
 
   // Join result into a string and return it.
   return result.join('');
-
+}
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
@@ -114,5 +113,5 @@ function writePassword() {
   passwordText.value = password;
 }
 
-// Add event listener to generate button
+// Add event listener to generate button - potential syntax error 
 generateBtn.addEventListener("click", writePassword);
